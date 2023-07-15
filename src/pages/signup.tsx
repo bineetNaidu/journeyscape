@@ -16,7 +16,7 @@ const SignupPage = () => {
           />
         </div>
         <div className="flex flex-col items-center w-full">
-          <div className="py-20 px-28 border-4 border-dashed rounded-lg mt-20">
+          <div className="py-20 px-20 md:px-28 border-4 border-dashed rounded-lg mt-20">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center">
               Sign Up
             </h1>

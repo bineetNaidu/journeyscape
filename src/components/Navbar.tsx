@@ -31,13 +31,13 @@ export const Navbar: FC = () => {
             Home
           </span>
         </Link>
-        <Link href="/about">
+        <Link href="/about-us">
           <span
             className={`hover:text-orange-500 transition-all ${
-              router.pathname === '/about' && 'font-bold'
+              router.pathname === '/about-us' && 'font-bold'
             }`}
           >
-            About
+            About us
           </span>
         </Link>
         <Link href="/destinations">
