@@ -30,7 +30,7 @@ const SignupPage = () => {
                 <span>Sign Up with Google</span>
               </Button>
 
-              <Button disabled>
+              <Button disabled className="mt-3">
                 <FaPhone />
                 <span>Sign Up with Phone</span>
               </Button>

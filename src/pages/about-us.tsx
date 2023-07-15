@@ -34,7 +34,7 @@ const AboutUs = () => {
         <div className="w-11/12 md:w-6/12 mx-auto py-20 text-center">
           <h2 className="text-2xl md:text-3xl font-bold">Socials</h2>
 
-          <div className="flex justify-center gap-6">
+          <div className="flex justify-center gap-6 mt-5">
             <a
               href="https://www.instagram.com/bineet_naidu/"
               target="_blank"
