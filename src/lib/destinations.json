@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "name": "Paris",
+    "description": "Explore the City of Lights, known for its iconic landmarks and rich cultural heritage.",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFyaXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "France",
+    "city": "Paris",
+    "latitude": 48.8566,
+    "longitude": 2.3522
+  },
+  {
+    "id": 2,
+    "name": "Bali",
+    "description": "Immerse yourself in the stunning beaches and vibrant culture of this Indonesian paradise.",
+    "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFsaXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Indonesia",
+    "city": "Bali",
+    "latitude": -8.4095,
+    "longitude": 115.1889
+  },
+  {
+    "id": 3,
+    "name": "Rome",
+    "description": "Discover ancient ruins, exquisite art, and mouthwatering cuisine in the Eternal City.",
+    "image": "https://plus.unsplash.com/premium_photo-1675975706513-9daba0ec12a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHJvbWV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Italy",
+    "city": "Rome",
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  },
+  {
+    "id": 4,
+    "name": "New York City",
+    "description": "Experience the hustle and bustle of the Big Apple, a melting pot of culture and iconic landmarks.",
+    "image": "https://plus.unsplash.com/premium_photo-1675198764206-40536cd9c362?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TllDfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "United States",
+    "city": "New York",
+    "latitude": 40.7128,
+    "longitude": -74.006
+  },
+  {
+    "id": 5,
+    "name": "Tokyo",
+    "description": "Immerse yourself in the vibrant energy of Tokyo, a futuristic metropolis blending tradition and technology.",
+    "image": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dG9reW98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Japan",
+    "city": "Tokyo",
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  },
+  {
+    "id": 6,
+    "name": "Barcelona",
+    "description": "Discover the architectural wonders and lively atmosphere of Barcelona, the capital of Catalonia.",
+    "image": "https://images.unsplash.com/photo-1583422409516-2895a77efded?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyY2Vsb25hfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Spain",
+    "city": "Barcelona",
+    "latitude": 41.3851,
+    "longitude": 2.1734
+  },
+  {
+    "id": 7,
+    "name": "Cairo",
+    "description": "Unravel the mysteries of ancient Egypt and behold the awe-inspiring pyramids in the bustling city of Cairo.",
+    "image": "https://images.unsplash.com/photo-1626692880062-35c360fb6afc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fpcm98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Egypt",
+    "city": "Cairo",
+    "latitude": 30.0444,
+    "longitude": 31.2357
+  },
+  {
+    "id": 8,
+    "name": "Sydney",
+    "description": "Experience the vibrant culture, stunning beaches, and iconic landmarks of Sydney, Australia.",
+    "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3lkbmV5fGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Australia",
+    "city": "Sydney",
+    "latitude": -33.8651,
+    "longitude": 151.2099
+  },
+  {
+    "id": 9,
+    "name": "Cape Town",
+    "description": "Discover the breathtaking beauty of Cape Town, where stunning landscapes meet vibrant city life.",
+    "image": "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2FwZSUyMFRvd258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "South Africa",
+    "city": "Cape Town",
+    "latitude": -33.9249,
+    "longitude": 18.4241
+  },
+  {
+    "id": 10,
+    "name": "Rio de Janeiro",
+    "description": "Experience the vibrant energy of Rio de Janeiro, home to stunning beaches and iconic landmarks like Christ the Redeemer.",
+    "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmlvJTIwZGUlMjBqYW5laXJvfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Brazil",
+    "city": "Rio de Janeiro",
+    "latitude": -22.9068,
+    "longitude": -43.1729
+  },
+  {
+    "id": 11,
+    "name": "Amsterdam",
+    "description": "Explore the charming canals, historic architecture, and artistic heritage of Amsterdam, the capital of the Netherlands.",
+    "image": "https://images.unsplash.com/photo-1605101100278-5d1deb2b6498?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YW1zdGVyZGFtfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "latitude": 52.3702,
+    "longitude": 4.8952
+  },
+  {
+    "id": 12,
+    "name": "Dubai",
+    "description": "Discover the glitz and glamour of Dubai, a city of towering skyscrapers, luxurious resorts, and endless entertainment.",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "United Arab Emirates",
+    "city": "Dubai",
+    "latitude": 25.2048,
+    "longitude": 55.2708
+  },
+  {
+    "id": 13,
+    "name": "London",
+    "description": "Experience the rich history, diverse culture, and iconic landmarks of London, the capital of the United Kingdom.",
+    "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TG9uZG9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "United Kingdom",
+    "city": "London",
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  },
+  {
+    "id": 14,
+    "name": "Hawaii",
+    "description": "Unwind on the beautiful beaches, indulge in outdoor adventures, and immerse yourself in the aloha spirit of Hawaii.",
+    "image": "https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SGF3YWlpfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "United States",
+    "city": "Hawaii",
+    "latitude": 20.7984,
+    "longitude": -156.3319
+  },
+  {
+    "id": 15,
+    "name": "Machu Picchu",
+    "description": "Embark on a journey to the ancient ruins of Machu Picchu, a mystical Incan citadel nestled in the Andes Mountains.",
+    "image": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjaHUlMjBwaWNjaHV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Peru",
+    "city": "Machu Picchu",
+    "latitude": -13.1631,
+    "longitude": -72.545
+  },
+  {
+    "id": 16,
+    "name": "Santorini",
+    "description": "Discover the breathtaking beauty of Santorini, with its iconic whitewashed buildings and stunning views of the Aegean Sea.",
+    "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2FudG9yaW5pfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Greece",
+    "city": "Santorini",
+    "latitude": 36.3932,
+    "longitude": 25.4615
+  },
+  {
+    "id": 17,
+    "name": "Venice",
+    "description": "Experience the romance and charm of Venice, a city built on water with picturesque canals, bridges, and historic architecture.",
+    "image": "https://images.unsplash.com/photo-1558271736-cd043ef2e855?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmVuaWNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Italy",
+    "city": "Venice",
+    "latitude": 45.4408,
+    "longitude": 12.3155
+  },
+  {
+    "id": 18,
+    "name": "Prague",
+    "description": "Wander through the fairytale-like streets of Prague, known for its stunning architecture, rich history, and vibrant culture.",
+    "image": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJhZ3VlfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Czech Republic",
+    "city": "Prague",
+    "latitude": 50.0755,
+    "longitude": 14.4378
+  },
+  {
+    "id": 19,
+    "name": "San Francisco",
+    "description": "Discover the vibrant and eclectic city of San Francisco, known for its iconic Golden Gate Bridge and diverse neighborhoods.",
+    "image": "https://images.unsplash.com/photo-1521747116042-5a810fda9664?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2FuJTIwRnJhbmNpc2NvfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "United States",
+    "city": "San Francisco",
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  },
+  {
+    "id": 20,
+    "name": "Istanbul",
+    "description": "Immerse yourself in the rich history and cultural fusion of Istanbul, a city that straddles Europe and Asia.",
+    "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aW5zdGFuYnVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Turkey",
+    "city": "Istanbul",
+    "latitude": 41.0082,
+    "longitude": 28.9784
+  },
+  {
+    "id": 21,
+    "name": "Cusco",
+    "description": "Experience the ancient heart of the Inca Empire in Cusco, Peru, and explore the nearby wonders of the Sacred Valley.",
+    "image": "https://images.unsplash.com/photo-1589260133321-6d4cc4a4799e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3VzY298ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Peru",
+    "city": "Cusco",
+    "latitude": -13.5319,
+    "longitude": -71.9675
+  },
+  {
+    "id": 22,
+    "name": "Copenhagen",
+    "description": "Discover the Danish charm and modern architecture of Copenhagen, a city known for its design, cycling culture, and hygge.",
+    "image": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29wZW5oYWdlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "latitude": 55.6761,
+    "longitude": 12.5683
+  },
+  {
+    "id": 23,
+    "name": "Marrakech",
+    "description": "Immerse yourself in the vibrant sights, sounds, and flavors of Marrakech, an enchanting city in Morocco.",
+    "image": "https://images.unsplash.com/photo-1597212618440-806262de4f6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWFycmFrZWNofGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Morocco",
+    "city": "Marrakech",
+    "latitude": 31.6295,
+    "longitude": -7.9811
+  },
+  {
+    "id": 24,
+    "name": "Bora Bora",
+    "description": "Escape to the paradise of Bora Bora, a tropical island in French Polynesia known for its crystal-clear waters and overwater bungalows.",
+    "image": "https://images.unsplash.com/photo-1580725869538-9b164c27c44f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qm9yYSUyMEJvcmF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "French Polynesia",
+    "city": "Bora Bora",
+    "latitude": -16.5004,
+    "longitude": -151.7415
+  },
+  {
+    "id": 25,
+    "name": "Florence",
+    "description": "Immerse yourself in the Renaissance art and architecture of Florence, the birthplace of the Italian Renaissance.",
+    "image": "https://images.unsplash.com/photo-1543429257-3eb0b65d9c58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RkxPUkVOQ0V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Italy",
+    "city": "Florence",
+    "latitude": 43.7696,
+    "longitude": 11.2558
+  },
+  {
+    "id": 26,
+    "name": "Vienna",
+    "description": "Experience the grandeur of Vienna, a city renowned for its classical music, historic palaces, and coffeehouse culture.",
+    "image": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmllbm5hfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Austria",
+    "city": "Vienna",
+    "latitude": 48.2082,
+    "longitude": 16.3738
+  },
+  {
+    "id": 27,
+    "name": "Seoul",
+    "description": "Discover the dynamic city of Seoul, a modern metropolis blending ancient traditions, futuristic technology, and vibrant street culture.",
+    "image": "https://images.unsplash.com/photo-1506816561089-5cc37b3aa9b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFNlb3VsfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "South Korea",
+    "city": "Seoul",
+    "latitude": 37.5665,
+    "longitude": 126.978
+  },
+  {
+    "id": 28,
+    "name": "Los Angeles",
+    "description": "Experience the glitz and glamour of Los Angeles, known for its entertainment industry, stunning beaches, and diverse neighborhoods.",
+    "image": "https://images.unsplash.com/photo-1506816561089-5cc37b3aa9b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFNlb3VsfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "United States",
+    "city": "Los Angeles",
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  },
+  {
+    "id": 29,
+    "name": "Dublin",
+    "description": "Explore the lively pubs, rich history, and friendly atmosphere of Dublin, the capital city of Ireland.",
+    "image": "https://images.unsplash.com/photo-1549918864-48ac978761a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RHVibGlufGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Ireland",
+    "city": "Dublin",
+    "latitude": 53.3498,
+    "longitude": -6.2603
+  },
+  {
+    "id": 30,
+    "name": "Athens",
+    "description": "Step back in time and discover the ancient wonders of Athens, the birthplace of democracy and Western civilization.",
+    "image": "https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QXRoZW5zfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Greece",
+    "city": "Athens",
+    "latitude": 37.9838,
+    "longitude": 23.7275
+  },
+  {
+    "id": 31,
+    "name": "Moscow",
+    "description": "Immerse yourself in the rich history, grand architecture, and cultural treasures of Moscow, the capital city of Russia.",
+    "image": "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fE1vc2Nvd3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Russia",
+    "city": "Moscow",
+    "latitude": 55.7512,
+    "longitude": 37.6184
+  },
+  {
+    "id": 32,
+    "name": "Stockholm",
+    "description": "Discover the beauty and serenity of Stockholm, a city built on 14 islands with a perfect blend of nature and urban charm.",
+    "image": "https://images.unsplash.com/photo-1508189860359-777d945909ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8U3RvY2tob2xtfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Sweden",
+    "city": "Stockholm",
+    "latitude": 59.3293,
+    "longitude": 18.0686
+  },
+  {
+    "id": 33,
+    "name": "Zurich",
+    "description": "Experience the Swiss elegance and stunning natural surroundings of Zurich, a global center for finance and culture.",
+    "image": "https://images.unsplash.com/photo-1620563092215-0fbc6b55cfc5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8enVyaWNofGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Switzerland",
+    "city": "Zurich",
+    "latitude": 47.3769,
+    "longitude": 8.5417
+  },
+  {
+    "id": 34,
+    "name": "Reykjavik",
+    "description": "Explore the natural wonders and unique landscapes of Reykjavik, the capital city of Iceland and gateway to the land of fire and ice.",
+    "image": "https://images.unsplash.com/photo-1602167352652-52dba4750482?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UmV5a2phdmlrfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Iceland",
+    "city": "Reykjavik",
+    "latitude": 64.1466,
+    "longitude": -21.9426
+  },
+  {
+    "id": 35,
+    "name": "Toronto",
+    "description": "Experience the multicultural vibes and modern cityscape of Toronto, Canada's largest city and a melting pot of cultures.",
+    "image": "https://images.unsplash.com/photo-1507992781348-310259076fe0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dG9yb250b3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Canada",
+    "city": "Toronto",
+    "latitude": 43.6519,
+    "longitude": -79.3832
+  },
+  {
+    "id": 36,
+    "name": "Cape Verde",
+    "description": "Discover the pristine beaches and vibrant culture of Cape Verde, an archipelago off the coast of West Africa.",
+    "image": "https://images.unsplash.com/photo-1507992781348-310259076fe0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dG9yb250b3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Cape Verde",
+    "city": "Cape Verde",
+    "latitude": 15.1201,
+    "longitude": -23.6058
+  },
+  {
+    "id": 37,
+    "name": "Edinburgh",
+    "description": "Immerse yourself in the rich history, stunning architecture, and vibrant festivals of Edinburgh, the capital city of Scotland.",
+    "image": "https://images.unsplash.com/photo-1507992781348-310259076fe0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dG9yb250b3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "United Kingdom",
+    "city": "Edinburgh",
+    "latitude": 55.9533,
+    "longitude": -3.1883
+  },
+  {
+    "id": 38,
+    "name": "Queenstown",
+    "description": "Experience the breathtaking beauty and thrilling adventures of Queenstown, a picturesque town in New Zealand's South Island.",
+    "image": "https://images.unsplash.com/photo-1512017615494-fdf6146235ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cXVlZW5zdG93bnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "New Zealand",
+    "city": "Queenstown",
+    "latitude": -45.0312,
+    "longitude": 168.6626
+  },
+  {
+    "id": 39,
+    "name": "Krakow",
+    "description": "Discover the rich history and cultural heritage of Krakow, Poland's former royal capital and a UNESCO World Heritage site.",
+    "image": "https://images.unsplash.com/photo-1495181941197-70a606546974?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8a3Jha293fGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Poland",
+    "city": "Krakow",
+    "latitude": 50.0647,
+    "longitude": 19.945
+  },
+  {
+    "id": 40,
+    "name": "Seychelles",
+    "description": "Escape to the tropical paradise of the Seychelles, a stunning archipelago known for its pristine beaches and turquoise waters.",
+    "image": "https://images.unsplash.com/photo-1553829176-61484f865ac3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2V5Y2hlbGxlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Seychelles",
+    "city": "Seychelles",
+    "latitude": -4.6796,
+    "longitude": 55.492
+  },
+  {
+    "id": 41,
+    "name": "Santiago",
+    "description": "Explore the vibrant capital city of Chile, Santiago, nestled in the stunning backdrop of the Andes Mountains.",
+    "image": "https://images.unsplash.com/photo-1597006438013-0f0cca2c1a03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FudGlhZ298ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Chile",
+    "city": "Santiago",
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  },
+  {
+    "id": 42,
+    "name": "Havana",
+    "description": "Step into the colorful streets of Havana, the capital city of Cuba, and experience its vibrant culture and rich history.",
+    "image": "https://images.unsplash.com/photo-1584098249534-05416403057b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGF2YW5hfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Cuba",
+    "city": "Havana",
+    "latitude": 23.1136,
+    "longitude": -82.3666
+  },
+  {
+    "id": 43,
+    "name": "Lisbon",
+    "description": "Discover the charm of Lisbon, Portugal's capital city, with its historic neighborhoods, beautiful architecture, and lively atmosphere.",
+    "image": "https://images.unsplash.com/photo-1585208798174-6cedd86e019a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TGlzYm9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "latitude": 38.7223,
+    "longitude": -9.1393
+  },
+  {
+    "id": 44,
+    "name": "Vancouver",
+    "description": "Immerse yourself in the stunning natural beauty and vibrant city life of Vancouver, a coastal city in western Canada.",
+    "image": "https://images.unsplash.com/photo-1609825488888-3a766db05542?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8VmFuY291dmVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Canada",
+    "city": "Vancouver",
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  },
+  {
+    "id": 45,
+    "name": "Auckland",
+    "description": "Explore the cosmopolitan city and breathtaking landscapes of Auckland, the largest city in New Zealand.",
+    "image": "https://images.unsplash.com/photo-1600208669687-f19af3638cb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QXVja2xhbmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "New Zealand",
+    "city": "Auckland",
+    "latitude": -36.8485,
+    "longitude": 174.7633
+  },
+  {
+    "id": 46,
+    "name": "Kyoto",
+    "description": "Immerse yourself in the serene beauty and traditional culture of Kyoto, Japan's former imperial capital.",
+    "image": "https://images.unsplash.com/photo-1578469645742-46cae010e5d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8S3lvdG98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Japan",
+    "city": "Kyoto",
+    "latitude": 35.0116,
+    "longitude": 135.7681
+  },
+  {
+    "id": 47,
+    "name": "Jerusalem",
+    "description": "Discover the historical and religious significance of Jerusalem, a city revered by three major religions for its ancient sites.",
+    "image": "https://images.unsplash.com/photo-1529079875474-0a66a1f176d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8amVydXNhbGVtfGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Israel",
+    "city": "Jerusalem",
+    "latitude": 31.7683,
+    "longitude": 35.2137
+  },
+  {
+    "id": 48,
+    "name": "Munich",
+    "description": "Experience the vibrant city life, rich history, and Bavarian charm of Munich, Germany's third-largest city.",
+    "image": "https://images.unsplash.com/photo-1595867818082-083862f3d630?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TXVuaWNofGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Germany",
+    "city": "Munich",
+    "latitude": 48.1351,
+    "longitude": 11.582
+  },
+  {
+    "id": 49,
+    "name": "Prague",
+    "description": "Wander through the fairytale-like streets of Prague, known for its stunning architecture, rich history, and vibrant culture.",
+    "image": "https://images.unsplash.com/photo-1595867818082-083862f3d630?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TXVuaWNofGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
+    "country": "Czech Republic",
+    "city": "Prague",
+    "latitude": 50.0755,
+    "longitude": 14.4378
+  },
+  {
+    "id": 50,
+    "name": "Helsinki",
+    "description": "Experience the modern design, Nordic charm, and cultural offerings of Helsinki, the capital city of Finland.",
+    "image": "https://images.unsplash.com/photo-1538332576228-eb5b4c4de6f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVsc2lua2l8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1770&q=80",
+    "country": "Finland",
+    "city": "Helsinki",
+    "latitude": 60.1699,
+    "longitude": 24.9384
+  }
+]
