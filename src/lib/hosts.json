@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "username": "john_doe",
+    "email": "john.doe@example.com",
+    "first_name": "John",
+    "lastName": "Doe",
+    "birthdate": "1990-05-15",
+    "address": "New York, United States"
+  },
+  {
+    "id": 2,
+    "username": "jane_smith",
+    "email": "jane.smith@example.com",
+    "first_name": "Jane",
+    "lastName": "Smith",
+    "birthdate": "1992-09-22",
+    "address": "London, United Kingdom"
+  },
+  {
+    "id": 3,
+    "username": "mike_jones",
+    "email": "mike.jones@example.com",
+    "first_name": "Mike",
+    "lastName": "Jones",
+    "birthdate": "1988-12-10",
+    "address": "Sydney, Australia"
+  },
+  {
+    "id": 4,
+    "username": "sara_wilson",
+    "email": "sara.wilson@example.com",
+    "first_name": "Sara",
+    "lastName": "Wilson",
+    "birthdate": "1995-07-03",
+    "address": "Toronto, Canada"
+  },
+  {
+    "id": 5,
+    "username": "alex_turner",
+    "email": "alex.turner@example.com",
+    "first_name": "Alex",
+    "last_name": "Turner",
+    "birthdate": "1991-02-18",
+    "address": "Manchester, United Kingdom"
+  },
+  {
+    "id": 6,
+    "username": "emily_smith",
+    "email": "emily.smith@example.com",
+    "first_name": "Emily",
+    "lastName": "Smith",
+    "birthdate": "1994-06-27",
+    "address": "Los Angeles, United States"
+  },
+  {
+    "id": 7,
+    "username": "david_jackson",
+    "email": "david.jackson@example.com",
+    "first_name": "David",
+    "lastName": "Jackson",
+    "birthdate": "1987-09-08",
+    "address": "Paris, France"
+  },
+  {
+    "id": 8,
+    "username": "laura_adams",
+    "email": "laura.adams@example.com",
+    "first_name": "Laura",
+    "lastName": "Adams",
+    "birthdate": "1993-04-12",
+    "address": "Berlin, Germany"
+  },
+  {
+    "id": 9,
+    "username": "matt_thompson",
+    "email": "matt.thompson@example.com",
+    "first_name": "Matt",
+    "lastName": "Thompson",
+    "birthdate": "1989-11-24",
+    "address": "Melbourne, Australia"
+  },
+  {
+    "id": 10,
+    "username": "jessica_campbell",
+    "email": "jessica.campbell@example.com",
+    "first_name": "Jessica",
+    "lastName": "Campbell",
+    "birthdate": "1992-08-07",
+    "address": "Vancouver, Canada"
+  },
+  {
+    "id": 11,
+    "username": "ryan_cooper",
+    "email": "ryan.cooper@example.com",
+    "first_name": "Ryan",
+    "lastName": "Cooper",
+    "birthdate": "1990-01-31",
+    "address": "Chicago, United States"
+  },
+  {
+    "id": 12,
+    "username": "olivia_stewart",
+    "email": "olivia.stewart@example.com",
+    "first_name": "Olivia",
+    "lastName": "Stewart",
+    "birthdate": "1994-03-19",
+    "address": "London, United Kingdom"
+  },
+  {
+    "id": 13,
+    "username": "jacob_wood",
+    "email": "jacob.wood@example.com",
+    "first_name": "Jacob",
+    "lastName": "Wood",
+    "birthdate": "1988-06-14",
+    "address": "Toronto, Canada"
+  },
+  {
+    "id": 14,
+    "username": "mia_carter",
+    "email": "mia.carter@example.com",
+    "first_name": "Mia",
+    "lastName": "Carter",
+    "birthdate": "1991-12-25",
+    "address": "Sydney, Australia"
+  },
+  {
+    "id": 15,
+    "username": "nathan_robinson",
+    "email": "nathan.robinson@example.com",
+    "first_name": "Nathan",
+    "lastName": "Robinson",
+    "birthdate": "1989-02-05",
+    "address": "Los Angeles, United States"
+  },
+  {
+    "id": 16,
+    "username": "sophia_harris",
+    "email": "sophia.harris@example.com",
+    "first_name": "Sophia",
+    "lastName": "Harris",
+    "birthdate": "1993-07-17",
+    "address": "Paris, France"
+  },
+  {
+    "id": 17,
+    "username": "ethan_clark",
+    "email": "ethan.clark@example.com",
+    "first_name": "Ethan",
+    "lastName": "Clark",
+    "birthdate": "1990-10-02",
+    "address": "Berlin, Germany"
+  },
+  {
+    "id": 18,
+    "username": "ava_richardson",
+    "email": "ava.richardson@example.com",
+    "first_name": "Ava",
+    "lastName": "Richardson",
+    "birthdate": "1987-12-13",
+    "address": "Melbourne, Australia"
+  },
+  {
+    "id": 19,
+    "username": "james_lee",
+    "email": "james.lee@example.com",
+    "first_name": "James",
+    "lastName": "Lee",
+    "birthdate": "1992-05-28",
+    "address": "Vancouver, Canada"
+  },
+  {
+    "id": 20,
+    "username": "sophie_wright",
+    "email": "sophie.wright@example.com",
+    "first_name": "Sophie",
+    "lastName": "Wright",
+    "birthdate": "1988-09-09",
+    "address": "London, United Kingdom"
+  }
+]
