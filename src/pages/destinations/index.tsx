@@ -9,7 +9,7 @@ const Destinations = () => {
   return (
     <Layout>
       <Suspense fallback={<p>Loading...</p>}>
-        <div id="map" className="w-full h-screen">
+        <div id="map" className="w-full h-[calc(100vh-15vh)] px-5">
           <MapWithNoSSR />
         </div>
       </Suspense>

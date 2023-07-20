@@ -5,12 +5,13 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
 import 'leaflet-defaulticon-compatibility';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Map: FC = () => {
   return (
     <MapContainer
-      center={[40.8054, -74.0241]}
-      zoom={5}
+      center={[21.500353252696783, 35.067585836584584]}
+      zoom={2}
       style={{ height: '100%', width: '100%' }}
     >
       <TileLayer
@@ -26,9 +27,14 @@ const Map: FC = () => {
               alt={d.name}
               width={200}
               height={200}
-              className="rounded-lg"
+              className="rounded-lg min-w-[180px] w-full h-[100px] object-cover"
             />
-            <h1 className="text-md sm:text-lg font-bold mt-1">{d.name}</h1>
+            <div className="flex justify-between items-center">
+              <h1 className="text-md sm:text-lg font-bold mt-1">{d.name}</h1>
+              <Link href={`/destinations/${d.id}`}>
+                <span className="text-blue-500 underline">View</span>
+              </Link>
+            </div>
           </Popup>
         </Marker>
       ))}
