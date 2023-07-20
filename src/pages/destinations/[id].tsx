@@ -1,10 +1,9 @@
-import { Layout } from '@/components/Layout';
+import type { GetServerSideProps, InferGetServerSidePropsType } from 'next';
 import destinations from '@/lib/destinations.json';
 import experiences from '@/lib/experiences.json';
-import hosts from '@/lib/hosts.json';
 import accommodations from '@/lib/accommodation.json';
-import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
 import Image from 'next/image';
+import { Layout } from '@/components/Layout';
 import { AccommodationCard } from '@/components/AccommodationCard';
 import { ExperienceCard } from '@/components/ExperienceCard';
 
@@ -14,18 +13,13 @@ type Props = {
   destination_accommodations: typeof accommodations;
 };
 
-export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = destinations.map((d) => ({ params: { id: d.id.toString() } }));
-  return {
-    paths,
-    fallback: true,
-  };
-};
+export const getServerSideProps: GetServerSideProps<Props> = async (ctx) => {
+  const { id } = ctx.params as { id: string };
 
-export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
   const destination = destinations.find(
-    (d) => d.id === parseInt(params?.id as string)
+    (destination) => destination.id === parseInt(id)
   );
+
   if (!destination) {
     return {
       notFound: true,
@@ -33,11 +27,13 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
   }
 
   const destination_experiences = experiences.filter(
-    (e) => e.destination_id === destination!.id
+    (experience) => experience.destination_id === destination.id
   );
+
   const destination_accommodations = accommodations.filter(
-    (a) => a.destination_id === destination!.id
+    (accommodation) => accommodation.destination_id === destination.id
   );
+
   return {
     props: {
       destination,
@@ -51,7 +47,7 @@ export default function Page({
   destination,
   destination_experiences,
   destination_accommodations,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+}: InferGetServerSidePropsType<typeof getServerSideProps>) {
   return (
     <Layout
       title={`${destination.name} | Journeyscape`}
