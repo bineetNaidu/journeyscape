@@ -26,6 +26,7 @@
     "leaflet-defaulticon-compatibility": "^0.1.1",
     "lucide-react": "^0.262.0",
     "micro": "^10.0.1",
+    "mongoose": "^7.4.0",
     "next": "13.4.9",
     "postcss": "8.4.25",
     "react": "18.2.0",

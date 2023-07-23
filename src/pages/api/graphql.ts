@@ -3,6 +3,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import { ApolloServer } from 'apollo-server-micro';
 import { buildSchema, Query, Resolver } from 'type-graphql';
 import Cors from 'cors';
+import { connectDB } from '@/lib/server/connectDB';
 
 // Setup cors
 const cors = Cors({
@@ -48,12 +49,22 @@ export const config = {
 
 const startServer = server.start();
 
+connectDB()
+  .then(() => console.log('Database connected'))
+  .catch(console.error); // Connect to the database
+
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  await runMiddleware(req, res, cors);
-  // await connectDB(); // Connect to the database
-  await startServer;
-  await server.createHandler({ path: '/api/graphql' })(req, res);
+  try {
+    await runMiddleware(req, res, cors);
+    await startServer;
+    await server.createHandler({ path: '/api/graphql' })(req, res);
+  } catch (error) {
+    console.error(error);
+    if (error instanceof Error) {
+      return res.status(500).json({ error: error.message });
+    }
+  }
 }
