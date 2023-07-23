@@ -1,9 +1,10 @@
 import 'reflect-metadata';
 import { NextApiRequest, NextApiResponse } from 'next';
 import { ApolloServer } from 'apollo-server-micro';
-import { buildSchema, Query, Resolver } from 'type-graphql';
+import { buildSchema } from 'type-graphql';
 import Cors from 'cors';
 import { connectDB } from '@/lib/server/connectDB';
+import { DestinationResolver } from '@/lib/server/resolvers/destination.resolver';
 
 // Setup cors
 const cors = Cors({
@@ -25,16 +26,8 @@ function runMiddleware(req: NextApiRequest, res: NextApiResponse, fn: any) {
   });
 }
 
-@Resolver()
-class HelloResolver {
-  @Query(() => String)
-  hello() {
-    return 'Hello World!';
-  }
-}
-
 const schema = await buildSchema({
-  resolvers: [HelloResolver],
+  resolvers: [DestinationResolver],
 });
 
 const server = new ApolloServer({
