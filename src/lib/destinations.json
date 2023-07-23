@@ -480,16 +480,6 @@
     "longitude": 11.582
   },
   {
-    "id": 49,
-    "name": "Prague",
-    "description": "Wander through the fairytale-like streets of Prague, known for its stunning architecture, rich history, and vibrant culture.",
-    "image": "https://images.unsplash.com/photo-1595867818082-083862f3d630?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TXVuaWNofGVufDB8fDB8fHww&auto=format&fit=crop&w=1770&q=80",
-    "country": "Czech Republic",
-    "city": "Prague",
-    "latitude": 50.0755,
-    "longitude": 14.4378
-  },
-  {
     "id": 50,
     "name": "Helsinki",
     "description": "Experience the modern design, Nordic charm, and cultural offerings of Helsinki, the capital city of Finland.",
