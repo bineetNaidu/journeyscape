@@ -13,4 +13,12 @@ export const connectDB = async () => {
   return mongoose.connect(uri);
 };
 
+export const disconnectDB = async () => {
+  if (db.readyState === 0) {
+    console.log('Database already disconnected');
+    return;
+  }
+  return mongoose.disconnect();
+};
+
 export default db;
