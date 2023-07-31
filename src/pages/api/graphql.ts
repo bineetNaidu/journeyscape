@@ -5,6 +5,7 @@ import { buildSchema } from 'type-graphql';
 import Cors from 'cors';
 import { connectDB } from '@/lib/server/connectDB';
 import { DestinationResolver } from '@/lib/server/resolvers/destination.resolver';
+import { AccommodationResolver } from '@/lib/server/resolvers/accommodation.resolver';
 
 // Setup cors
 const cors = Cors({
@@ -27,7 +28,7 @@ function runMiddleware(req: NextApiRequest, res: NextApiResponse, fn: any) {
 }
 
 const schema = await buildSchema({
-  resolvers: [DestinationResolver],
+  resolvers: [DestinationResolver, AccommodationResolver],
 });
 
 const server = new ApolloServer({
