@@ -12,6 +12,8 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet';
 import { Separator } from '@/components/ui/separator';
+import { useUser, UserButton } from '@clerk/nextjs';
+import { BiLoaderCircle } from 'react-icons/bi';
 
 const brandFont = Cookie({
   subsets: ['latin'],
@@ -39,6 +41,7 @@ const links = [
 
 export const Navbar: FC = () => {
   const router = useRouter();
+  const { isLoaded, isSignedIn } = useUser();
 
   return (
     <nav className="flex justify-between items-center px-5 md:px-20 py-8">
@@ -100,17 +103,44 @@ export const Navbar: FC = () => {
                   </span>
                 </Link>
               ))}
-              <Separator />
-              <Link href="/signup">
-                <Button>Sign up</Button>
+              <Link href={'/explore'}>
+                <span
+                  className={`hover:text-orange-500 transition-all ${
+                    router.pathname === '/explore' && 'font-bold'
+                  } text-slate-5`}
+                >
+                  Explore
+                </span>
               </Link>
+              <Separator />
+              {!isLoaded ? (
+                <span>
+                  <BiLoaderCircle className="animate-spin text-2xl text-orange-500" />
+                </span>
+              ) : isSignedIn ? (
+                <UserButton />
+              ) : (
+                <Link href="/signup">
+                  <Button>Sign up</Button>
+                </Link>
+              )}
             </div>
           </SheetContent>
         </Sheet>
 
-        <Link href="/signup" className="hidden md:block">
-          <Button>Sign up</Button>
-        </Link>
+        {!isLoaded ? (
+          <span>
+            <BiLoaderCircle className="animate-spin text-2xl text-orange-500" />
+          </span>
+        ) : isSignedIn ? (
+          <div className="hidden md:block">
+            <UserButton showName />
+          </div>
+        ) : (
+          <Link href="/signup" className="hidden md:block">
+            <Button>Sign up</Button>
+          </Link>
+        )}
       </div>
     </nav>
   );
