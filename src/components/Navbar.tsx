@@ -68,12 +68,18 @@ export const Navbar: FC = () => {
       <div>
         <Sheet>
           <SheetTrigger asChild>
-            <div className="group md:hidden flex h-12 w-12 cursor-pointer items-center justify-center rounded-3xl bg-transparent p-2 hover:bg-slate-200">
-              <div className="space-y-2">
-                <span className="block h-1 w-8 origin-center rounded-full bg-slate-500 transition-transform ease-in-out group-hover:translate-y-1.5 group-hover:rotate-45"></span>
-                <span className="block h-1 w-6 origin-center rounded-full bg-orange-500 transition-transform ease-in-out group-hover:w-8 group-hover:-translate-y-1.5 group-hover:-rotate-45"></span>
+            {!isLoaded ? (
+              <span>
+                <BiLoaderCircle className="animate-spin text-2xl text-orange-500" />
+              </span>
+            ) : (
+              <div className="group md:hidden flex h-12 w-12 cursor-pointer items-center justify-center rounded-3xl bg-transparent p-2 hover:bg-slate-200">
+                <div className="space-y-2">
+                  <span className="block h-1 w-8 origin-center rounded-full bg-slate-500 transition-transform ease-in-out group-hover:translate-y-1.5 group-hover:rotate-45"></span>
+                  <span className="block h-1 w-6 origin-center rounded-full bg-orange-500 transition-transform ease-in-out group-hover:w-8 group-hover:-translate-y-1.5 group-hover:-rotate-45"></span>
+                </div>
               </div>
-            </div>
+            )}
           </SheetTrigger>
           <SheetContent>
             <SheetHeader>
@@ -129,7 +135,7 @@ export const Navbar: FC = () => {
         </Sheet>
 
         {!isLoaded ? (
-          <span>
+          <span className="hidden md:block">
             <BiLoaderCircle className="animate-spin text-2xl text-orange-500" />
           </span>
         ) : isSignedIn ? (
