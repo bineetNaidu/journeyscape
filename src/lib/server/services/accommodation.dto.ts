@@ -164,6 +164,35 @@ export class UpdateAccommodationResponse {
   updated!: boolean;
 }
 
+@InputType()
+class UpdateAccommodationData {
+  @Field({ nullable: true })
+  title?: string;
+
+  @Field({ nullable: true })
+  description?: string;
+
+  @Field({ nullable: true })
+  image?: string;
+
+  @Field({ nullable: true })
+  pricePerNight?: number;
+
+  @Field({ nullable: true })
+  accommodationType?: string;
+
+  @Field(() => [String], { nullable: true })
+  amenities?: string[];
+
+  @Field({ nullable: true })
+  capacity?: number;
+
+  @Field({ nullable: true })
+  availabilityStartDate?: Date;
+
+  @Field({ nullable: true })
+  availabilityEndDate?: Date;
+}
 @InputType('UpdateAccommodationInput', {
   description: 'Update accommodation input',
 })
@@ -173,7 +202,8 @@ export class UpdateAccommodationInput {
   @Field()
   id!: string;
 
-  data!: Partial<Omit<CreateAccommodationInput, 'destinationId' | 'hostId'>>;
+  @Field(() => UpdateAccommodationData)
+  data!: UpdateAccommodationData;
 }
 
 /* ------------------------------------- */
