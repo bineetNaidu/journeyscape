@@ -6,6 +6,8 @@ import Cors from 'cors';
 import { connectDB } from '@/lib/server/connectDB';
 import { DestinationResolver } from '@/lib/server/resolvers/destination.resolver';
 import { AccommodationResolver } from '@/lib/server/resolvers/accommodation.resolver';
+import { MyCtx } from '@/lib/server/types';
+import { ExperienceResolver } from '@/lib/server/resolvers/experience.resolver';
 
 // Setup cors
 const cors = Cors({
@@ -28,11 +30,16 @@ function runMiddleware(req: NextApiRequest, res: NextApiResponse, fn: any) {
 }
 
 const schema = await buildSchema({
-  resolvers: [DestinationResolver, AccommodationResolver],
+  resolvers: [DestinationResolver, AccommodationResolver, ExperienceResolver],
 });
 
 const server = new ApolloServer({
   schema,
+  csrfPrevention: true,
+  context: ({ req, res }): MyCtx => ({
+    req,
+    res,
+  }),
 });
 
 export const config = {
