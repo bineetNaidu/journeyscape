@@ -31,6 +31,9 @@ export class Host {
   @Field()
   @prop({ default: 'default.jpeg', required: true })
   image!: string;
+
+  @prop({ required: true, unique: true })
+  clerkId!: string;
 }
 
 export const HostModel = getModelForClass<typeof Host>(Host);
